@@ -38,7 +38,9 @@ def pressMarkup(message):
 
 			bot.send_message(message.chat.id, 'Добре! Як сам?', reply_markup=markup)
 		elif message.text == 'Слитая инфаа!':
-			bot.send_message(message.chat.id, parser.title)
+			for i in range(8):
+				bot.send_message(message.chat.id, '<a href = "https://www.youtube.com'+ parser.href[i] + '">' + parser.title[i] + '</a>',
+					parse_mode = 'html', reply_markup=None)
 		else:
 			bot.send_message(message.chat.id, 'Я ничего не понял(')
 

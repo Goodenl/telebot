@@ -1,1 +1,1 @@
-TOKEN = "1032537139:AAGm51UsUtHrvGJ4oXKdBDZPVwQnj2-vANE" #Sixth bot token
+TOKEN = "1032537139:AAGm51UsUtHrvGJ4oXKdBDZPVwQnj2-vANE" # Sixth bot token
